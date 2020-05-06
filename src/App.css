@@ -27,12 +27,41 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.root {
+  height: 100vh;
+  justify-content: center;
+  background-color:rgb(115, 212, 249, .5);
 }
+
+.papermain {
+  margin: (8, 4);
+  display: 'flex';
+  flex-direction: 'row';
+  border-radius:'20px';
+  width:'55%',
+}
+.signin {
+  border-top-left-radius:'20px';
+  border-bottom-left-radius:'20px';
+  background-color:'#EEF7FC';
+}
+.paper {
+  margin: (8, 4);
+  display: 'flex';
+  flex-Direction: 'column';
+  align-items: 'center';
+  
+}
+.avatar {
+  margin: (1);
+  background-Color: '#222222';
+}
+.form {
+  width: '100%';
+  margin-Top:(1);
+}
+.submit {
+  margin: (3, 0, 2);
+  background-Color:'#56CBF8';
+}
+
